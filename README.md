@@ -1,13 +1,13 @@
 <div align="center">
 
 # FITX
-### Legacy experiment that helped shape Project Creation.
+### Legacy fitness prototype that helped shape Project Creation.
 
 FITX was an earlier fitness-product experiment built while exploring progression, analytics, consistency, and game-inspired motivation.
 
-It is **not the current flagship app**. The lessons from this project fed directly into the later development of **Project Creation**.
+It is **not the current flagship app**. The lessons from this project fed into the later development of **Project Creation**.
 
-![Status](https://img.shields.io/badge/status-legacy%20experiment-7a1f1f?style=for-the-badge)
+![Status](https://img.shields.io/badge/status-runnable%20legacy%20prototype-7a1f1f?style=for-the-badge)
 ![React](https://img.shields.io/badge/React-19-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-111827?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
 ![Recharts](https://img.shields.io/badge/Data-Recharts-111827?style=for-the-badge)
@@ -15,6 +15,37 @@ It is **not the current flagship app**. The lessons from this project fed direct
 </div>
 
 ---
+
+## What is implemented
+
+The repository now contains a small runnable React prototype rather than only project metadata.
+
+Current demo features:
+
+- daily fitness habit checklist
+- interactive completion state
+- simple progress-point scoring
+- animated daily progress bar
+- Recharts momentum graph
+- daily log action
+- streak and weekly-score cards
+- adjustable target score
+- responsive dark UI
+
+The prototype is intentionally compact. It demonstrates the type of product ideas FITX was exploring without pretending the old experiment is production-ready.
+
+## Run locally
+
+```bash
+npm install
+npm start
+```
+
+Create a production build with:
+
+```bash
+npm run build
+```
 
 ## Why this repo exists
 
@@ -32,7 +63,7 @@ The project explored ideas such as:
 
 Some ideas worked. Some did not.
 
-That experimentation mattered because it exposed problems in product scope, architecture, persistence, UX, and long-term maintainability before those lessons were carried into **Project Creation**.
+That experimentation exposed problems in product scope, architecture, persistence, UX, and long-term maintainability before those lessons were carried into **Project Creation**.
 
 ## Product lineage
 
@@ -50,7 +81,7 @@ PROJECT CREATION
 
 Project Creation is the current product direction. FITX should be read as part of its development history, not as a competing product.
 
-## Public stack
+## Stack
 
 ```txt
 Frontend      React 19
@@ -73,9 +104,9 @@ Runtime       JavaScript / Web
 
 ## Current status
 
-This repository is preserved as a **legacy learning project**.
+This repository is preserved as a **runnable legacy learning project**.
 
-It is intentionally not presented as production-ready. The value of the repo is in showing the progression from an early concept toward a more serious product architecture in Project Creation.
+The value of the repo is showing the progression from an early interactive concept toward the more serious architecture and product direction used in Project Creation.
 
 ## Developer
 
