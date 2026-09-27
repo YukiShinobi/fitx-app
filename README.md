@@ -1,70 +1,55 @@
-# Getting Started with Create React App
+<div align="center">
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# FITX
+### Fitness, progression, and data — built as a product.
 
-## Available Scripts
+A React-based fitness application exploring a cleaner, more motivating way to track progress and turn consistency into something visible.
 
-In the project directory, you can run:
+![React](https://img.shields.io/badge/React-19-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-111827?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
+![Recharts](https://img.shields.io/badge/Data-Recharts-111827?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-In%20Development-6B7280?style=for-the-badge)
 
-### `npm start`
+</div>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Overview
 
-### `npm test`
+FITX is an evolving fitness-product concept focused on making progress tracking feel less like filling out a spreadsheet and more like building momentum.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The project is being developed around three ideas:
 
-### `npm run build`
+- **Clear progress** — useful visual feedback instead of noisy dashboards.
+- **Consistency** — make repeatable habits easy to understand and maintain.
+- **Product thinking** — design the experience around the user, not just the feature list.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Tech
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```text
+Frontend      React 19
+Charts        Recharts
+Testing       Testing Library
+Build         React Scripts
+Runtime       JavaScript / Web
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Current Status
 
-### `npm run eject`
+This repository is under active development. The public project surface will be expanded as the application architecture and feature set are consolidated.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Direction
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Planned areas of development include workout and progress tracking, richer visual analytics, personal goals, and a more game-like progression experience.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Developer
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Built by **YukiShinobi** — Computer Science student and product-focused developer interested in full-stack applications, AI-assisted products, interactive systems, gaming, and creator technology.
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<div align="center">
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+**Build things people actually want to use.**
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+</div>
