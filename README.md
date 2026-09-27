@@ -1,32 +1,26 @@
 <div align="center">
 
-# FITX Showcase
-### Public-facing product concept for a gamified fitness experience.
+# FITX
+### Legacy experiment that helped shape Project Creation.
 
-This repository presents the public concept and product direction behind FITX: a fitness platform built around progress, consistency, analytics, and game-inspired motivation.
+FITX was an earlier fitness-product experiment built while exploring progression, analytics, consistency, and game-inspired motivation.
 
+It is **not the current flagship app**. The lessons from this project fed directly into the later development of **Project Creation**.
+
+![Status](https://img.shields.io/badge/status-legacy%20experiment-7a1f1f?style=for-the-badge)
 ![React](https://img.shields.io/badge/React-19-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-111827?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
 ![Recharts](https://img.shields.io/badge/Data-Recharts-111827?style=for-the-badge)
-![Status](https://img.shields.io/badge/Status-Public%20Showcase-7A1F1F?style=for-the-badge)
 
 </div>
 
 ---
 
-## Purpose
+## Why this repo exists
 
-This is the **public showcase surface** for FITX.
+FITX was one of the earlier attempts at building a fitness experience that felt more motivating than a standard tracker.
 
-It is intended to communicate the product idea, UX direction, and selected public-facing work without exposing private production code, credentials, or unfinished backend systems.
-
-## Product idea
-
-FITX explores a simple question:
-
-> What if fitness progress felt more like building a character than filling in a spreadsheet?
-
-The product direction focuses on:
+The project explored ideas such as:
 
 - workout and progress tracking
 - visual analytics
@@ -35,6 +29,26 @@ The product direction focuses on:
 - gamified progression
 - mobile-first UX
 - motivating feedback loops
+
+Some ideas worked. Some did not.
+
+That experimentation mattered because it exposed problems in product scope, architecture, persistence, UX, and long-term maintainability before those lessons were carried into **Project Creation**.
+
+## Product lineage
+
+```txt
+Early fitness experiments
+        ↓
+FITX
+        ↓
+Gamified Fitness App
+        ↓
+lessons from failed / incomplete approaches
+        ↓
+PROJECT CREATION
+```
+
+Project Creation is the current product direction. FITX should be read as part of its development history, not as a competing product.
 
 ## Public stack
 
@@ -46,43 +60,31 @@ Build         React Scripts
 Runtime       JavaScript / Web
 ```
 
-## Repository status
-
-This repository is intentionally lightweight.
-
-The more complete application architecture is developed separately while production systems are still being consolidated and hardened.
-
-That means this repo should be read as a **showcase / concept surface**, not the canonical production codebase.
-
-## Design principles
+## What this experiment taught me
 
 ```txt
-Clear progress > noisy dashboards
-Useful feedback > decoration
-Consistency > short-term intensity
-Product thinking > feature dumping
-Mobile-first > desktop squeezed smaller
+• a strong idea still needs durable architecture
+• progression systems need persistent data
+• dashboards need clear information hierarchy
+• mobile-first design should be intentional from the start
+• gamification works best when tied to real user behaviour
+• product identity should be defined before features multiply
 ```
 
-## Roadmap for this public repo
+## Current status
 
-Planned additions include:
+This repository is preserved as a **legacy learning project**.
 
-- screenshots and product visuals
-- selected safe UI components
-- public architecture diagrams
-- feature walkthroughs
-- design rationale
-- demo-safe prototypes
+It is intentionally not presented as production-ready. The value of the repo is in showing the progression from an early concept toward a more serious product architecture in Project Creation.
 
 ## Developer
 
-Built by **YukiShinobi** — Computer Science student and product developer working across full-stack applications, server engineering, gamified systems, and interactive products.
+Built by **YukiShinobi** as part of the experimentation that eventually led to **Project Creation**.
 
 ---
 
 <div align="center">
 
-**FITX — MAKE PROGRESS VISIBLE.**
+**EXPERIMENT → LEARN → REBUILD BETTER**
 
 </div>
